@@ -1,12 +1,18 @@
 
+.row-menu{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 #cssmenu {
   width: auto;
   padding: 0;
   line-height: 1;
   display: block;
   position: relative;
-  z-index: 9999;
-  margin-top: 15px;
 }
 
 ul li {
@@ -37,6 +43,7 @@ ul li a {
 
 .align-right > ul {
   float: right;
+  padding-top: 17px;
 }
 
 #cssmenu > ul > li:after {
